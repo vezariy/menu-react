@@ -17,7 +17,7 @@ const filterItems = (category) => {
   }
   const newItems = items.filter((item) => item.category === category)
   setMenuItems(newItems)
-  setCategories;
+  setCategories();
 }
 
   return (
